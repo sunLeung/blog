@@ -21,6 +21,8 @@ UsePrivilegeSeparation no
 locale -a
 # 安装locales
 apt-get install locales
+# 生成语言文件
+locale-gen zh_CN.UTF-8
 # 设置环境变量vi ~/.bash_profile
 LANG="zh_CN.UTF-8"
 LC_ALL="zh_CN.UTF-8"
