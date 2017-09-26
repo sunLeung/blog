@@ -22,6 +22,9 @@ yungentie:
 disqus:
 duoshuo: 
 
+mathjax:
+   enable: true
+
 
 # Analytics
 # google-analytics:
