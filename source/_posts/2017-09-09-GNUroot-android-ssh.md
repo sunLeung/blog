@@ -23,11 +23,13 @@ locale -a
 apt-get install locales
 # 生成语言文件
 locale-gen zh_CN.UTF-8
+dpkg-reconfigure locales
+
+vi /etc/default/locale 
+LANG=zh_CN.UTF-8
+
 # 设置环境变量vi ~/.bash_profile
-LANG="zh_CN.UTF-8"
-LC_ALL="zh_CN.UTF-8"
-export LANG
-export LC_ALL
+exoprt LANG="zh_CN.UTF-8"
 # 生效
 source .bash_profile
 ```
