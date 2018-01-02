@@ -1,7 +1,7 @@
 menu:
     博文: /
     技术: /categories/technology/
-    经济: /categories/economy/
+    #经济: /categories/economy/
     归档: /archives/
     关于: /about/
 
@@ -13,8 +13,8 @@ widgets:
 
 # count
 show_count: true
-favicon: /images/favicon.ico
-logo: /images/logo.png
+#favicon: /images/favicon.ico
+#logo: /images/logo.png
 
 # Comment
 changyan:
